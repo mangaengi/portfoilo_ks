@@ -1,0 +1,107 @@
+@charset "utf-8";
+@import url('fonts.css');
+@import url('all.min.css');
+
+#wrap > button {opacity: 0.8;}
+header {position: fixed; padding: 20px; height: 70px;}
+.inner {width: 600px; margin: 0 auto;}
+h2 {font-size: 35px;} 
+
+header .gnb {display: none;  }
+header .hes .hes1  {display: none;}
+header .hes h1 {background-size: 100px; margin: 0px 0 0 10px; }
+
+header .btnArea {margin-top: -15px;}
+header .btnArea span i {font-size: 25px; margin-right: 8px;}
+header .btnArea img {width: 25px; height: 25px;}
+header .btnArea .menu {position: relative; display: inline-block; margin-left: 10px; font-size: 30px; z-index: 10;}
+header .btnArea input {display: none;}
+
+/* .mainSlideArea */
+.mainSlideArea {max-width: 100vw; height: 800px; overflow: hidden;}
+.mainSlideArea .point-txt {display: none;}
+.mainSlideArea .inner1  {overflow: hidden; width: 640px; height: 100%;}
+
+.mainSlideArea .bgAear .swiperText {display: block; left: 15px; top: -10px; }
+.mainSlideArea .bgAear .swiperText .BigText {font-size: 50px;}
+.mainSlideArea .swiper-slide .swiperText .middleText {line-height: 1.2;}
+.mainSlideArea:before {height: 50%; width: 100%;}
+
+.swiper.mainBg {position: absolute; top: 120px; left: 0; width: 630px; height: 700px;  margin: -5px; }
+.swiper.mainBg .swiper-wrapper { height: 400px; }
+.swiper.mainBg .swiper-slide .swiperImg {float: none; width: 100%; height: 550px; margin-top: 170px;}
+
+/* .collection */
+.collection {overflow: hidden; width: 600px;}
+
+.tab > ul {display: block; height: 300px;}
+.tab > ul > li {text-align: center; margin-bottom: 22px;}
+.tab > ul > li > button {width: 560px; font-size: 20px; font-weight: 600;}
+
+.tab > ul > li ul li button {width: 130px; font-size: 16px;}
+
+.collArea {margin-left: 20px;}
+.collArea .mainAg {float: none; width: 100%; height: 600px;}
+.collArea .mainAg img {width: 550px; height: 100%;}
+.collArea .swiperBtn .naxt {left: 88%; top: 50%;}
+
+.collArea .collText {float: none; width: 100%; padding: 20px;}
+.collText .topText h3 {font-size: 30px;}
+.collText .topText .BigT {font-size: 28px;}
+.collText .topText p {color: rgba(0,0,0,0.8); font-size: 16px;}
+.collText .btn_area {right: 0;}
+
+/* news */
+#news {overflow: hidden;}
+#news .newsHe .btn_area {right: 10px;}
+#news .newsRight {float: none; width: 100%;}
+
+#news .rightImg {width: 600px;}
+#news .rigthText {padding: 0 10px; margin-top: 45px;}
+#news .rigthText .BigText {font-size: 20px;}
+#news .rigthText p {margin-top: -20px; font-size: 15px;}
+#news .rigthText time {font-size: 14px;}
+
+#news .newsLeft {float: none; width: 100%; margin-top: 20px;}
+#news .newsLeft figure img {padding: 10px;}
+
+/* sns */
+#SNS .snsHeader .smallTest {margin-top: -50px;}
+#SNS .snsImg li {width: calc(100%/2 - 10px); margin-left: 10px;}
+#SNS .snsImg li figure {width: 100%; height: 100%; }
+#SNS .snsImg li figure:hover:before {width: 270px; height: 100%;}
+#SNS .snsHeader figure {width: calc(100%/2);}
+
+/* footer */
+footer{overflow: hidden; }
+footer .footerLogo {float: none; width: 80px;} 
+footer .inner {padding: 0 20px; margin-top: -20px; box-sizing: border-box;}
+footer .footerTxt {width: 100%;}
+footer .footerTxt .fotopTxt {font-size: 14px;}
+footer .footerTxt .fomiTxt  {font-size: 12px;}
+footer .footerTxt .copy {font-size: 12px;}
+footer .siteBtn {font-size: 13px; padding: 8px 15px;}
+footer .sideContent {top: 30px; right: 10px;}
+footer .sideContent .sideBtn {top: -20px; width: 600px; height: 210px; padding: 20px;}
+footer .sideContent .sideBtn .sideTxt {font-size: 14px;}
+footer .sideContent .sideBtn .Affiliate ul {font-size: 14px;}
+
+.open {right: 10px; bottom: 30px; padding: 10px 20px; font-size: 13px;}
+
+/* menu */
+header .tablet {display: none;}
+header .tablet .menu01 { position: fixed; top: 0; right: 0; width: 80%; height: 1000px; background: #ffffff; z-index: 50;}
+
+.tablet .menu01 .tabletHeader {position: relative; height: 50px; padding: 10px; border-bottom: 1px solid rgba(0,0,0,0.2);}
+.tablet .menu01 .tabletHeader .moLogo {float: left; background: url(../img/logo-m.png) no-repeat; margin-top: 5px; width: 120px; height: 40px; background-size: 120px;}
+.tablet .menu01 .tabletHeader .hes2 {float: left; margin:  13px 0 0 20px; font-size: 14px; font-weight: 500;}
+.tablet .menu01 .tabletHeader .hes2 span {margin-left: 5px; color: rgba(0,0,0,0.4);}
+.tablet .menu01 .tabletHeader .hes2 span:last-child {vertical-align: middle; font-size: 20px; margin-top: 50px; color: #000;}
+.tablet .menu01 .tabletHeader .hes2 .con:after {display: inline-block; content: ''; width: 1px; height: 10px; background: rgba(0,0,0,0.5); margin-left: 10px;}
+.tablet .menu01 .tabletHeader .hes2 .con {color: #000;}
+.tablet .menu01 .tabletHeader .close {float: right; width: 10%; font-size: 30px; text-align: center;}
+
+.tablet .menu01 .gnb02 > li {overflow: hidden; color: #333; border-bottom: 1px solid rgba(0,0,0,0.2); padding: 13px;}
+.tablet .menu01 .gnb02 > li i {float: right; font-size: 22px;}
+
+
