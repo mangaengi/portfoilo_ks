@@ -2,9 +2,10 @@
 @import url('fonts.css');
 @import url('all.min.css');
 
+#wrap {max-width: 100%; overflow: hidden; }
 #wrap > button {opacity: 0.8;}
-header {position: fixed; padding: 20px; height: 70px;}
-.inner {width: 600px; margin: 0 auto;}
+header {position: fixed; padding: 20px; height: 70px; box-sizing: border-box;}
+.inner {width: 100%; margin: 0 auto;}
 h2 {font-size: 35px;} 
 
 header .gnb {display: none;  }
@@ -18,52 +19,54 @@ header .btnArea .menu {position: relative; display: inline-block; margin-left: 1
 header .btnArea input {display: none;}
 
 /* .mainSlideArea */
-.mainSlideArea {max-width: 100vw; height: 800px; overflow: hidden;}
+.mainSlideArea {max-width: 100%; height: 800px; overflow: hidden;}
 .mainSlideArea .point-txt {display: none;}
-.mainSlideArea .inner1  {overflow: hidden; width: 640px; height: 100%;}
+.mainSlideArea .inner1  {overflow: hidden; width: 100%; height: 100%;}
 
 .mainSlideArea .bgAear .swiperText {display: block; left: 15px; top: -10px; }
 .mainSlideArea .bgAear .swiperText .BigText {font-size: 50px;}
 .mainSlideArea .swiper-slide .swiperText .middleText {line-height: 1.2;}
 .mainSlideArea:before {height: 50%; width: 100%;}
 
-.swiper.mainBg {position: absolute; top: 120px; left: 0; width: 630px; height: 700px;  margin: -5px; }
+.swiper.mainBg {position: absolute; top: 120px; left: 0; width: 100%; height: 700px;  margin: -5px; }
 .swiper.mainBg .swiper-wrapper { height: 400px; }
 .swiper.mainBg .swiper-slide .swiperImg {float: none; width: 100%; height: 550px; margin-top: 170px;}
 
 /* .collection */
-.collection {overflow: hidden; width: 600px;}
+.collection {overflow: hidden; width: 100%;}
 
 .tab > ul {display: block; height: 300px;}
 .tab > ul > li {text-align: center; margin-bottom: 22px;}
-.tab > ul > li > button {width: 560px; font-size: 20px; font-weight: 600;}
+.tab > ul > li > button {width: 100%; font-size: 20px; font-weight: 600;}
 
 .tab > ul > li ul li button {width: 130px; font-size: 16px;}
 
-.collArea {margin-left: 20px;}
 .collArea .mainAg {float: none; width: 100%; height: 600px;}
-.collArea .mainAg img {width: 550px; height: 100%;}
-.collArea .swiperBtn .naxt {left: 88%; top: 50%;}
+.collArea .mainAg img {width: 100%; height: 100%;}
+.collArea .swiperBtn .naxt {left: 80%; top: 50%;}
 
-.collArea .collText {float: none; width: 100%; padding: 20px;}
+.collArea .collText {float: none; width: 100%; padding: 20px; box-sizing: border-box;}
 .collText .topText h3 {font-size: 30px;}
 .collText .topText .BigT {font-size: 28px;}
 .collText .topText p {color: rgba(0,0,0,0.8); font-size: 16px;}
-.collText .btn_area {right: 0;}
+.collText .btn_area {right: 7%; bottom: -20px;}
+
 
 /* news */
 #news {overflow: hidden;}
-#news .newsHe .btn_area {right: 10px;}
+#news .newsHe .btn_area {right: 7%;}
 #news .newsRight {float: none; width: 100%;}
 
-#news .rightImg {width: 600px;}
+#news .rightImg {width: 100%;}
 #news .rigthText {padding: 0 10px; margin-top: 45px;}
 #news .rigthText .BigText {font-size: 20px;}
-#news .rigthText p {margin-top: -20px; font-size: 15px;}
+#news .rigthText p {width: 100%; margin-top: -20px; font-size: 15px;}
 #news .rigthText time {font-size: 14px;}
-
 #news .newsLeft {float: none; width: 100%; margin-top: 20px;}
-#news .newsLeft figure img {padding: 10px;}
+#news .newsLeft figure {width: 48%;}
+#news .newsLeft figure img {width: 100%; height: 100%; padding: 10px;}
+
+#news .newsLeft .Text {width: 50%; margin-left: 0;}
 
 /* sns */
 #SNS .snsHeader .smallTest {margin-top: -50px;}
