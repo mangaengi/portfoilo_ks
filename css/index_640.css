@@ -14,7 +14,7 @@ header .hes h1 {background-size: 100px; margin: 0px 0 0 10px; }
 
 header .btnArea {margin-top: -15px;}
 header .btnArea span i {font-size: 25px; margin-right: 8px;}
-header .btnArea img {width: 25px; height: 25px;}
+header .btnArea img {width: 21px; height: 21px;}
 header .btnArea .menu {position: relative; display: inline-block; margin-left: 10px; font-size: 30px; z-index: 10;}
 header .btnArea input {display: none;}
 
@@ -64,16 +64,19 @@ header .btnArea input {display: none;}
 #news .rigthText time {font-size: 14px;}
 #news .newsLeft {float: none; width: 100%; margin-top: 20px;}
 #news .newsLeft figure {width: 48%;}
-#news .newsLeft figure img {width: 100%; height: 100%; padding: 10px;}
+#news .newsLeft figure img {width: 100%; height: 100%; padding: 30px; box-sizing: border-box;}
 
-#news .newsLeft .Text {width: 50%; margin-left: 0;}
+#news .newsLeft .Text {width: 45%; height: 170px; margin-left: 20px;}
+#news .newsLeft .Text h3 {font-size: 16px; margin-bottom: 10px;}
+#news .newsLeft .Text p P {font-size: 14px;}
 
 /* sns */
 #SNS .snsHeader .smallTest {margin-top: -50px;}
-#SNS .snsImg li {width: calc(100%/2 - 10px); margin-left: 10px;}
+#SNS .snsImg li {width: calc(100%/2 - 10px); margin: 5px;}
 #SNS .snsImg li figure {width: 100%; height: 100%; }
 #SNS .snsImg li figure:hover:before {width: 270px; height: 100%;}
 #SNS .snsHeader figure {width: calc(100%/2);}
+#SNS .snsHeader .pointFo {padding: 5px 8px;}
 
 /* footer */
 footer{overflow: hidden; }
@@ -85,7 +88,7 @@ footer .footerTxt .fomiTxt  {font-size: 12px;}
 footer .footerTxt .copy {font-size: 12px;}
 footer .siteBtn {font-size: 13px; padding: 8px 15px;}
 footer .sideContent {top: 30px; right: 10px;}
-footer .sideContent .sideBtn {top: -20px; width: 600px; height: 210px; padding: 20px;}
+footer .sideContent .sideBtn {top: -20px; width: 100%; height: 220px; padding: 20px; box-sizing: border-box;}
 footer .sideContent .sideBtn .sideTxt {font-size: 14px;}
 footer .sideContent .sideBtn .Affiliate ul {font-size: 14px;}
 
