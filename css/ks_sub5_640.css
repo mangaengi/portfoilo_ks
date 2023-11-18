@@ -2,7 +2,7 @@
 /*  */
 #wrap {max-width: 100%; overflow: hidden; }
 #wrap > button {opacity: 0.8;}
-header {position: fixed; padding: 20px; height: 70px;}
+header {position: fixed; padding: 20px; height: 70px; box-sizing: border-box;}
 .inner {width: 100%; margin: 0 auto;}
 h2 {font-size: 35px;} 
 
@@ -19,7 +19,7 @@ header .btnArea input {display: none;}
 header .tablet {display: none;}
 header .tablet .menu01 {position: fixed; top: 0; right: 0; width: 80%; height: 1000px; background: #ffffff; z-index: 50;}
 
-.tablet .menu01 .tabletHeader {position: relative; height: 50px; padding: 10px; border-bottom: 1px solid rgba(0,0,0,0.2);}
+.tablet .menu01 .tabletHeader {position: relative; height: 50px; padding: 10px; border-bottom: 1px solid rgba(0,0,0,0.2); box-sizing: border-box;}
 .tablet .menu01 .tabletHeader .moLogo {float: left; background: url(../img/logo-m.png) no-repeat; margin-top: 5px; width: 120px; height: 40px; background-size: 120px;}
 .tablet .menu01 .tabletHeader .hes2 {float: left; margin:  13px 0 0 20px; font-size: 14px; font-weight: 500;}
 .tablet .menu01 .tabletHeader .hes2 span {margin-left: 5px; color: rgba(0,0,0,0.4);}
@@ -46,10 +46,10 @@ footer .footerTxt {width: 100%;}
 footer .footerTxt .fotopTxt {font-size: 14px;}
 footer .footerTxt .fomiTxt  {font-size: 12px;}
 footer .footerTxt .copy {font-size: 12px;}
-footer .siteBtn {font-size: 13px; padding: 8px 15px;}
+footer .siteBtn {font-size: 13px; padding: 8px 15px; box-sizing: border-box;}
 footer .sideContent {top: 30px; right: 10px;}
-footer .sideContent .sideBtn {top: -20px; width: 600px; height: 210px; padding: 20px;}
+footer .sideContent .sideBtn {top: -20px; width: 600px; height: 210px; padding: 20px; box-sizing: border-box;}
 footer .sideContent .sideBtn .sideTxt {font-size: 14px;}
 footer .sideContent .sideBtn .Affiliate ul {font-size: 14px;}
 
-.open {right: 10px; bottom: 30px; padding: 10px 20px; font-size: 13px;}
+.open {right: 10px; bottom: 30px; padding: 10px 20px; font-size: 13px; box-sizing: border-box;}

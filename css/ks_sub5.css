@@ -16,14 +16,13 @@ section {width: 680px; height: 200px; border: 1px solid rgba(0,0,0,0.2); margin:
 
 #check01 {display: inline-block; margin: 20px 10px; font-size: 14px;}
 
-#inquiry li {margin-bottom: 15px;}
 #inquiry label {display: inline-block; width: 100px; padding: 20px 20px 20px 0; color: #111; font-weight: 700; box-sizing: border-box;}
-#inquiry li input {width: 540px; padding: 10px 0 10px 10px; border: 1px solid rgba(0,0,0,0.1); box-sizing: border-box;}
+#inquiry li input {width: 540px; padding: 20px 0 20px 10px; border: 1px solid rgba(0,0,0,0.1); box-sizing: border-box;}
 
 #inquiry li #txtBox {height: 80px;}
 
 .board-btn {width: 100%; text-align: center;}
-.board-btn #save {background: #fff; border: 1px solid #602a19; padding: 10px 30px; margin-top: 25px; transition: all 0.2s; cursor: pointer; box-sizing: border-box;} 
+.board-btn #save {background: #fff; color: #602a19; border: 1px solid #602a19; padding: 10px 30px; margin-top: 25px; transition: all 0.2s; cursor: pointer; box-sizing: border-box;} 
 .board-btn #save:hover {background: #602a19; color: #fff; transition: all 0.2s;}
 .board-btn .btntxt {font-size: 15px; letter-spacing: -1px;}
 
